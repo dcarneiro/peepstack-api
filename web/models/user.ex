@@ -14,7 +14,6 @@ defmodule Peepchat.User do
   @required_fields ~w(email password password_confirmation)
   @optional_fields ~w()
 
-
   @doc """
   Creates a changeset based on the `model` and `params`.
 
